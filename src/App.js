@@ -1,12 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
+import MainPage from './MainPage';
+import CodingPage from './CodingPage';
+import MePage from './MePage';
+import LearningPage from './LearningPage.js';
 import './App.css';
 
 function App() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '100px' }}>
-      <h1>Hello World</h1>
-      <p>Welcome to my GitHub Pages React site!</p>
-    </div>
+    <Router>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/coding" element={<CodingPage />} />
+        <Route path="/me" element={<MePage />} />
+        <Route path="/learning" element={<LearningPage />} />
+      </Routes>
+    </Router>
   );
 }
 
