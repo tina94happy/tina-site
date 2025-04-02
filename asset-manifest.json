@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tina-site/static/css/main.4bffea18.css",
-    "main.js": "/tina-site/static/js/main.77100914.js",
+    "main.js": "/tina-site/static/js/main.e5712401.js",
     "static/js/453.fe4d6d62.chunk.js": "/tina-site/static/js/453.fe4d6d62.chunk.js",
     "index.html": "/tina-site/index.html",
     "main.4bffea18.css.map": "/tina-site/static/css/main.4bffea18.css.map",
-    "main.77100914.js.map": "/tina-site/static/js/main.77100914.js.map",
+    "main.e5712401.js.map": "/tina-site/static/js/main.e5712401.js.map",
     "453.fe4d6d62.chunk.js.map": "/tina-site/static/js/453.fe4d6d62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bffea18.css",
-    "static/js/main.77100914.js"
+    "static/js/main.e5712401.js"
   ]
 }
