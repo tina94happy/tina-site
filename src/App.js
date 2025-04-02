@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/tina-site">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainPage />} />
